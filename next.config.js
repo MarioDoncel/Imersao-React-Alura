@@ -4,3 +4,16 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+module.exports = {
+  experimental: {
+    // ssr and displayName are configured by default
+    styledComponents: true,
+  },
+}
+
+module.exports = {
+  images: {
+    domains: ['avatars.githubusercontent.com'],
+  },
+};
