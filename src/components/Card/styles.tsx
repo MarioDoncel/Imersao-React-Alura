@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const CardContainer = styled.div`
   height: clamp(300px,30vh,600px) ;
-  width:clamp(400px,40vw,800px) ;
+  width:clamp(400px,60vw,800px) ;
   background-color: ${({ theme }) => theme.colors.neutrals[700]};
   display: flex;
   justify-content: space-around;

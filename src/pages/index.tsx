@@ -6,11 +6,7 @@ import Card from '../components/Card'
 
 const Home: NextPage = () => {
   return (
-    <div >
-      <Card>
-
-      </Card>
-    </div>
+    <Card />
   )
 }
 
